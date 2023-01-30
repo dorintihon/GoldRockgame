@@ -20,13 +20,13 @@ class GoldRock extends Rock {
         this.color = color;
     }
 
-    //Overrided getColor() method that returns the color variable
+    //Overrided getColor() method that returns the color variable of GoldRock class
     @Override
     public Color getColor() {
         return color;
     }
 
-    //Overrided setColor() method that sets the color variable to the given parameter
+    //Overrided setColor() method that sets the color variable of GoldRock class to the given parameter
     @Override
     public void setColor(Color color) {
         this.color = color;
